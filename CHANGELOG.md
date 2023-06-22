@@ -1,5 +1,89 @@
 # Changelog
 
+## [1.2.0](https://github.com/p5/bluefin/compare/v1.1.0...v1.2.0) (2023-06-22)
+
+
+### Features
+
+* add `progress` tool ([#224](https://github.com/p5/bluefin/issues/224)) ([3eac2c0](https://github.com/p5/bluefin/commit/3eac2c03661f4ffbb9e49b7367ca8b25f7647b6d))
+* add a bluefin-framework image ([#279](https://github.com/p5/bluefin/issues/279)) ([6439034](https://github.com/p5/bluefin/commit/6439034d949416d5b383f9eef8c5b917d2ed9b2a))
+* add a framework specific image ([#275](https://github.com/p5/bluefin/issues/275)) ([1895cb3](https://github.com/p5/bluefin/commit/1895cb3550bebe64e07033fe22519b5cf603c61f))
+* add a just shortcut for better OSK ([#192](https://github.com/p5/bluefin/issues/192)) ([cee487c](https://github.com/p5/bluefin/commit/cee487c5d43c61d07912357def3731484530920a))
+* add a quick stress-ng benchmark ([#283](https://github.com/p5/bluefin/issues/283)) ([f9cb3bd](https://github.com/p5/bluefin/commit/f9cb3bdbf7efc124cc46aab4c50e6c359a10c030))
+* add back input-remapper ([#262](https://github.com/p5/bluefin/issues/262)) ([73dcfaa](https://github.com/p5/bluefin/commit/73dcfaacf623d7b0b91046df0fca3bbed20fab6c))
+* add boot_menu.yml ([#202](https://github.com/p5/bluefin/issues/202)) ([c3e4a81](https://github.com/p5/bluefin/commit/c3e4a81a6f4d708b925a951c9c562342ebf07ffd))
+* add cockpit-bridge ([#273](https://github.com/p5/bluefin/issues/273)) ([cb0f64d](https://github.com/p5/bluefin/commit/cb0f64d0efed2666e32c14c75e962f089e054862))
+* add Containerfile.toolbox ([#197](https://github.com/p5/bluefin/issues/197)) ([608bdbc](https://github.com/p5/bluefin/commit/608bdbc54da3286d377d786902d52f1a782eb51f))
+* add ddcccontrol ([#268](https://github.com/p5/bluefin/issues/268)) ([a3b7366](https://github.com/p5/bluefin/commit/a3b7366294545e83968c8e77cdfb1eec13fdf7ab))
+* add fish onto the image ([#286](https://github.com/p5/bluefin/issues/286)) ([472e235](https://github.com/p5/bluefin/commit/472e2357beb402dc82528aef336d2bc232647024))
+* add inter font ([#258](https://github.com/p5/bluefin/issues/258)) ([3fb7cdd](https://github.com/p5/bluefin/commit/3fb7cdd7dc4054670b4b6246eea8647b06adf750))
+* add just zsh shortcut ([#171](https://github.com/p5/bluefin/issues/171)) ([962e988](https://github.com/p5/bluefin/commit/962e9882f953e987d306f4be52ffa5e1b2744c37))
+* add skeleton for framework config files and a wallpaper ([#278](https://github.com/p5/bluefin/issues/278)) ([3da9f6b](https://github.com/p5/bluefin/commit/3da9f6be4285d98183893d6b48c49e2aa98b7979))
+* add tmux ([#203](https://github.com/p5/bluefin/issues/203)) ([541defb](https://github.com/p5/bluefin/commit/541defb39458342e7448e20c2aac019f24a9beda))
+* add toolbox-packages ([#198](https://github.com/p5/bluefin/issues/198)) ([8ae4420](https://github.com/p5/bluefin/commit/8ae4420675f637b1a6fd9241d7e65f866cf2a610))
+* added lines of code that makes a backup of nix before it is used so user can reset nix easily ([#152](https://github.com/p5/bluefin/issues/152)) ([e50c660](https://github.com/p5/bluefin/commit/e50c6601ce425da84940211c3bd68a6e7ff4e711))
+* added packages for toolbox image to decrease distrobox startup time ([#289](https://github.com/p5/bluefin/issues/289)) ([159354e](https://github.com/p5/bluefin/commit/159354e193e079c29b96ec3193a10f44f593b9ab))
+* cherry pick some nicer dock settings from beyond ([#259](https://github.com/p5/bluefin/issues/259)) ([87932ad](https://github.com/p5/bluefin/commit/87932ada5cb4797fa22acfe1831c05d87397046c))
+* document the bluefin-dx image ([#234](https://github.com/p5/bluefin/issues/234)) ([348535c](https://github.com/p5/bluefin/commit/348535ced1047dd09fb887fc4ce14a82c8f05a87))
+* **dx:** add intel mono font ([#240](https://github.com/p5/bluefin/issues/240)) ([c0a6409](https://github.com/p5/bluefin/commit/c0a6409cfdc8e3ec7e7fb9e00ce481c2e19fe01b))
+* **dx:** add ld workaround ([#254](https://github.com/p5/bluefin/issues/254)) ([e6dd8df](https://github.com/p5/bluefin/commit/e6dd8dfe4ef46eee53a2646d4a79e1dc1ab7d856))
+* **dx:** add nerd fonts, clean up repos ([#239](https://github.com/p5/bluefin/issues/239)) ([c607903](https://github.com/p5/bluefin/commit/c607903d61d39cfdb8578e4bb487dff447ddda04))
+* **dx:** add npm ([#256](https://github.com/p5/bluefin/issues/256)) ([efde853](https://github.com/p5/bluefin/commit/efde853998972c3db02fc985caa932f9736b2409))
+* **dx:** add p7zip tools ([#241](https://github.com/p5/bluefin/issues/241)) ([43f2a2b](https://github.com/p5/bluefin/commit/43f2a2ba0eb8cadcc7e1f6675459f31480b66d9a))
+* **dx:** add rust and cargo ([#255](https://github.com/p5/bluefin/issues/255)) ([4829918](https://github.com/p5/bluefin/commit/48299186ae91225ad4d00802e6fb69429c2c4f81))
+* enable -dx flavor of bluefin ([#233](https://github.com/p5/bluefin/issues/233)) ([98a4d23](https://github.com/p5/bluefin/commit/98a4d239ae02e3bf0c82d0fbce842b64daf11d31))
+* **framework:** ship a default tlp config ([#282](https://github.com/p5/bluefin/issues/282)) ([4a5d9de](https://github.com/p5/bluefin/commit/4a5d9dee8d584476656cd151a6d8a4846cd69541))
+* **framework:** ship framework-optimized tlp.conf ([#284](https://github.com/p5/bluefin/issues/284)) ([93bde63](https://github.com/p5/bluefin/commit/93bde6348265f15e73cb2f2698c56d2aae8c06ba))
+* **just:** add bluefin ubuntu distrobox ([#210](https://github.com/p5/bluefin/issues/210)) ([30a927c](https://github.com/p5/bluefin/commit/30a927ca1a4069e6ff93dc1d2c3c399f573932f1))
+* **just:** add devbox install shortcut ([#245](https://github.com/p5/bluefin/issues/245)) ([87debaf](https://github.com/p5/bluefin/commit/87debafe47e05e869ab590e9b34eadea1a473952))
+* **just:** add fish shortcut ([#287](https://github.com/p5/bluefin/issues/287)) ([05f44d7](https://github.com/p5/bluefin/commit/05f44d7151ebe45acea2941e631b326713bacb49))
+* **just:** add improved gestures extension ([#222](https://github.com/p5/bluefin/issues/222)) ([8624171](https://github.com/p5/bluefin/commit/8624171f729e38eb8db9f8defdcd240fe7a45b4e))
+* **just:** add includes for ublue justfiles ([#232](https://github.com/p5/bluefin/issues/232)) ([ff3daa1](https://github.com/p5/bluefin/commit/ff3daa1e697ee0c6ebdf39e9463ae1d77d4c60be))
+* **just:** add ms universal dev image ([#218](https://github.com/p5/bluefin/issues/218)) ([1fe9407](https://github.com/p5/bluefin/commit/1fe9407f266ccd6a2c34b28d385a36f0cc2120d5))
+* **just:** add shortcut to install distrobox from git ([#228](https://github.com/p5/bluefin/issues/228)) ([54fc54b](https://github.com/p5/bluefin/commit/54fc54b9afd8054d8bf28afca0eaf9215ee5262b))
+* **just:** add weather extension for the clock ([#229](https://github.com/p5/bluefin/issues/229)) ([c008a57](https://github.com/p5/bluefin/commit/c008a57da6c97929d0ee9fe912d9b83a02d1914e))
+* replace GNOME Games with Lutris ([#264](https://github.com/p5/bluefin/issues/264)) ([6dafb93](https://github.com/p5/bluefin/commit/6dafb936effc4d7f652316ba2fecc1daece4427f))
+* sort folders before files ([#260](https://github.com/p5/bluefin/issues/260)) ([c5ad75c](https://github.com/p5/bluefin/commit/c5ad75cb02825c168c410fd78bd2bf01ddde1200))
+* switch to our ubuntu-toolbox by default ([#219](https://github.com/p5/bluefin/issues/219)) ([cb0681e](https://github.com/p5/bluefin/commit/cb0681eab26141f10376001a1f2a0150b20a9ec1))
+* **toolbox:** add distrobox.ini for ubuntu image ([#227](https://github.com/p5/bluefin/issues/227)) ([47e6d52](https://github.com/p5/bluefin/commit/47e6d5248c3fedf79ae81b42d63755adc7573a9f))
+* **toolbox:** add packages for 3d support ([#226](https://github.com/p5/bluefin/issues/226)) ([2435953](https://github.com/p5/bluefin/commit/24359530330fc0753efc45727a7f89ab1861dddf))
+* update nix tools ([#263](https://github.com/p5/bluefin/issues/263)) ([8148ddb](https://github.com/p5/bluefin/commit/8148ddb3be0880f8ba56780451c45db1bbc59ec1))
+* update to the latest ubuntu font ([#186](https://github.com/p5/bluefin/issues/186)) ([f7b11ed](https://github.com/p5/bluefin/commit/f7b11eda0064f86aece6f3178567537894de9570))
+* use Ubuntu Nerd Font for DX images ([#288](https://github.com/p5/bluefin/issues/288)) ([62d23bb](https://github.com/p5/bluefin/commit/62d23bb72d444a8e45ffe386ed44f6d3f4551e04))
+* **yafti:** add syncthing flatpak ([#249](https://github.com/p5/bluefin/issues/249)) ([a3f8e41](https://github.com/p5/bluefin/commit/a3f8e4104f50cea0277d2483e2d1daa0ef430deb))
+
+
+### Bug Fixes
+
+* add thirdparty disable ([#179](https://github.com/p5/bluefin/issues/179)) ([acaa538](https://github.com/p5/bluefin/commit/acaa538b8acfbd11e24ac32336e713378c0b0ffa))
+* Apply custom background to dark mode ([#163](https://github.com/p5/bluefin/issues/163)) ([31c2c16](https://github.com/p5/bluefin/commit/31c2c1630dd464d3995a18962a9b88d6f1eb5281))
+* Containerfile.toolbox ([#216](https://github.com/p5/bluefin/issues/216)) ([6613907](https://github.com/p5/bluefin/commit/66139070c0eab0612fe33c26dd5891fd1327bdfb))
+* copy toolbox-packages file during build ([#204](https://github.com/p5/bluefin/issues/204)) ([35e335a](https://github.com/p5/bluefin/commit/35e335af752792b1095e95db774601a4310c8035))
+* Create gnome settings background entry ([#165](https://github.com/p5/bluefin/issues/165)) ([7d942a8](https://github.com/p5/bluefin/commit/7d942a862e27120f9f7212d740d4fd1e9f86f256))
+* dx image should have cockpit, the bridge goes on the clients ([#272](https://github.com/p5/bluefin/issues/272)) ([c0328a3](https://github.com/p5/bluefin/commit/c0328a3d17ac2afe1fa5355a674d1b33a5ae7071))
+* **dx:** copy usr folder to the image ([#242](https://github.com/p5/bluefin/issues/242)) ([5567601](https://github.com/p5/bluefin/commit/55676019126afda9a0e97a0e8dd542d208900ffc))
+* **dx:** only add ibm plex mono fonts, not all of them ([#247](https://github.com/p5/bluefin/issues/247)) ([4f6cc7b](https://github.com/p5/bluefin/commit/4f6cc7bc6bda9d9c9fecc41c21c51bdad7a30b42))
+* **dx:** use (mostly) non-nerd versions of mono fonts ([#244](https://github.com/p5/bluefin/issues/244)) ([f8a912f](https://github.com/p5/bluefin/commit/f8a912fb91e4be79d0cc61c7cc08bc9584cf9885))
+* inconsistent dir naming in PR [#152](https://github.com/p5/bluefin/issues/152) ([#167](https://github.com/p5/bluefin/issues/167)) ([8ff4824](https://github.com/p5/bluefin/commit/8ff482412bbeb5e3e181f4b6a717004324edcead))
+* **just:** move justfile to new org structure ([#250](https://github.com/p5/bluefin/issues/250)) ([b5b5df3](https://github.com/p5/bluefin/commit/b5b5df3b1c57fc92c6bd705b0a30ff53c447117f))
+* only build framework for -dx for now ([#277](https://github.com/p5/bluefin/issues/277)) ([25091ae](https://github.com/p5/bluefin/commit/25091ae5fd732a342d8d2b70aa73d1f7cce9e436))
+* remove extra repo files from final image ([#174](https://github.com/p5/bluefin/issues/174)) ([c088d4e](https://github.com/p5/bluefin/commit/c088d4e0589964fd9b60947e14e929d21fe9168c))
+* remove fixed fleek verion ([#190](https://github.com/p5/bluefin/issues/190)) ([5825d19](https://github.com/p5/bluefin/commit/5825d198b670c353c45fa4096fc71ed9fc978e80))
+* remove gnome-software settings ([#195](https://github.com/p5/bluefin/issues/195)) ([f8f84de](https://github.com/p5/bluefin/commit/f8f84def3066d1df4f02f87dad5cdf0977466c97))
+* remove podman-compose from image ([#200](https://github.com/p5/bluefin/issues/200)) ([1ee2065](https://github.com/p5/bluefin/commit/1ee2065da2b44c29c87d72b905100f8d0e371775))
+* remove podman-docker from F38 ([#181](https://github.com/p5/bluefin/issues/181)) ([cd055c6](https://github.com/p5/bluefin/commit/cd055c6c675bdfae157e9e6a211ebe88a8142b7e))
+* remove unneeded kickstart file ([#183](https://github.com/p5/bluefin/issues/183)) ([5e1e887](https://github.com/p5/bluefin/commit/5e1e8873582a57cc1774bba6fca84705c5c8d5e8))
+* remove unneeded kickstart files ([#182](https://github.com/p5/bluefin/issues/182)) ([f2b766b](https://github.com/p5/bluefin/commit/f2b766bbbbe3fcce52bd8ccba7807ee3c113bf09))
+* set first-run to false ([#177](https://github.com/p5/bluefin/issues/177)) ([7b218b5](https://github.com/p5/bluefin/commit/7b218b541be73e1227383db32fa759dfae23657c))
+* update Containerfile.toolbox ([#213](https://github.com/p5/bluefin/issues/213)) ([bde663d](https://github.com/p5/bluefin/commit/bde663d499e1b57cab7373e8d8b7c57d3b04490f))
+* update toolbox containerfile ([#209](https://github.com/p5/bluefin/issues/209)) ([f74bd75](https://github.com/p5/bluefin/commit/f74bd75e8e6cdce6f97fed7f787a9608702f11ad))
+* update toolbox-packages ([#205](https://github.com/p5/bluefin/issues/205)) ([47a7750](https://github.com/p5/bluefin/commit/47a77509b9469edcabc20a777271c1d10d3fc60a))
+
+
+### Reverts
+
+* "fix: remove extra repo files from final image" ([#176](https://github.com/p5/bluefin/issues/176)) ([3b83c61](https://github.com/p5/bluefin/commit/3b83c61df074c5b5c5950dfb7d0b2f93a4c6aebf))
+
 ## [1.1.0](https://github.com/ublue-os/bluefin/compare/v1.0.0...v1.1.0) (2023-04-09)
 
 
